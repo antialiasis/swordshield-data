@@ -137,7 +137,7 @@ return new class()
                         {
                             $level = ltrim($data['level'][0], '0');
                             $pokemon['level_up_moves'][] = [
-                                'level' => is_numeric($level) ? (int)$level : ($level ? $level : '-'),
+                                'level' => is_numeric($level) ? (int)$level : ($level ? $level : 0),
                                 'move' => $data['move'][0]
                             ];
                         }

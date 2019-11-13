@@ -220,7 +220,7 @@ pokemon:
     weight: 100.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Petal Blizzard' }
+      - { level: 0, move: 'Petal Blizzard' }
       - { level: 1, move: 'Petal Blizzard' }
       - { level: 1, move: 'Petal Dance' }
       - { level: 1, move: Tackle }
@@ -520,7 +520,7 @@ pokemon:
     weight: 90.5
     color: Red
     level_up_moves:
-      - { level: '-', move: 'Air Slash' }
+      - { level: 0, move: 'Air Slash' }
       - { level: 1, move: 'Air Slash' }
       - { level: 1, move: 'Dragon Claw' }
       - { level: 1, move: 'Heat Wave' }
@@ -835,7 +835,7 @@ pokemon:
     weight: 85.5
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Flash Cannon' }
+      - { level: 0, move: 'Flash Cannon' }
       - { level: 1, move: 'Flash Cannon' }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Tail Whip' }
@@ -987,7 +987,7 @@ pokemon:
     weight: 9.9
     color: Green
     level_up_moves:
-      - { level: '-', move: Harden }
+      - { level: 0, move: Harden }
       - { level: 1, move: Harden }
     egg_moves: []
     tms:
@@ -1035,7 +1035,7 @@ pokemon:
     weight: 32.0
     color: White
     level_up_moves:
-      - { level: '-', move: Gust }
+      - { level: 0, move: Gust }
       - { level: 1, move: Gust }
       - { level: 1, move: Harden }
       - { level: 1, move: Tackle }
@@ -1961,7 +1961,7 @@ pokemon:
     weight: 30.0
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Thunder Punch' }
+      - { level: 0, move: 'Thunder Punch' }
       - { level: 1, move: 'Thunder Punch' }
       - { level: 1, move: 'Play Nice' }
       - { level: 1, move: 'Sweet Kiss' }
@@ -2073,7 +2073,7 @@ pokemon:
     weight: 21.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: Psychic }
+      - { level: 0, move: Psychic }
       - { level: 1, move: Psychic }
       - { level: 1, move: 'Play Nice' }
       - { level: 1, move: 'Sweet Kiss' }
@@ -2759,7 +2759,7 @@ pokemon:
     weight: 19.9
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Dazzling Gleam' }
+      - { level: 0, move: 'Dazzling Gleam' }
       - { level: 1, move: 'Dazzling Gleam' }
       - { level: 1, move: 'Nasty Plot' }
       - { level: 1, move: Spite }
@@ -3038,7 +3038,7 @@ pokemon:
     weight: 18.6
     color: Red
     level_up_moves:
-      - { level: '-', move: 'Petal Blizzard' }
+      - { level: 0, move: 'Petal Blizzard' }
       - { level: 1, move: 'Petal Blizzard' }
       - { level: 1, move: Aromatherapy }
       - { level: 1, move: 'Mega Drain' }
@@ -3316,7 +3316,7 @@ pokemon:
     weight: 33.3
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Sand Tomb' }
+      - { level: 0, move: 'Sand Tomb' }
       - { level: 1, move: 'Sand Tomb' }
       - { level: 1, move: 'Night Slash' }
       - { level: 1, move: 'Tri Attack' }
@@ -3414,7 +3414,7 @@ pokemon:
     weight: 66.6
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Sand Tomb' }
+      - { level: 0, move: 'Sand Tomb' }
       - { level: 1, move: 'Sand Tomb' }
       - { level: 1, move: 'Night Slash' }
       - { level: 1, move: 'Tri Attack' }
@@ -3818,7 +3818,7 @@ pokemon:
     weight: 32.0
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Power Gem' }
+      - { level: 0, move: 'Power Gem' }
       - { level: 1, move: 'Power Gem' }
       - { level: 1, move: Switcheroo }
       - { level: 1, move: 'Fake Out' }
@@ -3919,7 +3919,7 @@ pokemon:
     weight: 33.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Power Gem' }
+      - { level: 0, move: 'Power Gem' }
       - { level: 1, move: 'Power Gem' }
       - { level: 1, move: Quash }
       - { level: 1, move: Switcheroo }
@@ -4117,7 +4117,7 @@ pokemon:
     weight: 155.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Extreme Speed' }
+      - { level: 0, move: 'Extreme Speed' }
       - { level: 1, move: 'Extreme Speed' }
       - { level: 1, move: 'Burn Up' }
       - { level: 1, move: 'Flame Wheel' }
@@ -4724,7 +4724,7 @@ pokemon:
     weight: 95.0
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Smart Strike' }
+      - { level: 0, move: 'Smart Strike' }
       - { level: 1, move: 'Smart Strike' }
       - { level: 1, move: Megahorn }
       - { level: 1, move: 'Poison Jab' }
@@ -4823,7 +4823,7 @@ pokemon:
     weight: 80.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Psycho Cut' }
+      - { level: 0, move: 'Psycho Cut' }
       - { level: 1, move: 'Psycho Cut' }
       - { level: 1, move: Megahorn }
       - { level: 1, move: Tackle }
@@ -5225,7 +5225,7 @@ pokemon:
     weight: 132.5
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Icicle Spear' }
+      - { level: 0, move: 'Icicle Spear' }
       - { level: 1, move: 'Icicle Spear' }
       - { level: 1, move: 'Icicle Crash' }
       - { level: 1, move: 'Toxic Spikes' }
@@ -5428,7 +5428,7 @@ pokemon:
     weight: 0.1
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Shadow Punch' }
+      - { level: 0, move: 'Shadow Punch' }
       - { level: 1, move: 'Shadow Punch' }
       - { level: 1, move: Lick }
       - { level: 1, move: 'Confuse Ray' }
@@ -5940,7 +5940,7 @@ pokemon:
     weight: 49.8
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Brick Break' }
+      - { level: 0, move: 'Brick Break' }
       - { level: 1, move: 'Brick Break' }
       - { level: 1, move: Feint }
       - { level: 1, move: 'Low Sweep' }
@@ -6041,7 +6041,7 @@ pokemon:
     weight: 50.2
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Drain Punch' }
+      - { level: 0, move: 'Drain Punch' }
       - { level: 1, move: 'Drain Punch' }
       - { level: 1, move: Feint }
       - { level: 1, move: 'Vacuum Wave' }
@@ -6244,7 +6244,7 @@ pokemon:
     weight: 9.5
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Double Hit' }
+      - { level: 0, move: 'Double Hit' }
       - { level: 1, move: 'Double Hit' }
       - { level: 1, move: 'Heat Wave' }
       - { level: 1, move: 'Poison Gas' }
@@ -6339,7 +6339,7 @@ pokemon:
     weight: 16.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Double Hit' }
+      - { level: 0, move: 'Double Hit' }
       - { level: 1, move: 'Double Hit' }
       - { level: 1, move: 'Strange Steam' }
       - { level: 1, move: Defog }
@@ -6556,7 +6556,7 @@ pokemon:
     weight: 120.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Hammer Arm' }
+      - { level: 0, move: 'Hammer Arm' }
       - { level: 1, move: 'Hammer Arm' }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Tail Whip' }
@@ -7183,7 +7183,7 @@ pokemon:
     weight: 235.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: Bite }
+      - { level: 0, move: Bite }
       - { level: 1, move: Bite }
       - { level: 1, move: Flail }
       - { level: 1, move: Splash }
@@ -7545,7 +7545,7 @@ pokemon:
     weight: 29.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Water Gun' }
+      - { level: 0, move: 'Water Gun' }
       - { level: 1, move: 'Water Gun' }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -7651,7 +7651,7 @@ pokemon:
     weight: 24.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Thunder Shock' }
+      - { level: 0, move: 'Thunder Shock' }
       - { level: 1, move: 'Thunder Shock' }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -7754,7 +7754,7 @@ pokemon:
     weight: 25.0
     color: Red
     level_up_moves:
-      - { level: '-', move: Ember }
+      - { level: 0, move: Ember }
       - { level: 1, move: Ember }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -8665,9 +8665,9 @@ pokemon:
     weight: 22.5
     color: Blue
     level_up_moves:
-      - { level: '-', move: Stockpile }
-      - { level: '-', move: Swallow }
-      - { level: '-', move: 'Spit Up' }
+      - { level: 0, move: Stockpile }
+      - { level: 0, move: Swallow }
+      - { level: 0, move: 'Spit Up' }
       - { level: 1, move: Stockpile }
       - { level: 1, move: Swallow }
       - { level: 1, move: 'Spit Up' }
@@ -9058,7 +9058,7 @@ pokemon:
     weight: 3.2
     color: White
     level_up_moves:
-      - { level: '-', move: 'Fairy Wind' }
+      - { level: 0, move: 'Fairy Wind' }
       - { level: 1, move: 'Fairy Wind' }
       - { level: 1, move: Growl }
       - { level: 1, move: Pound }
@@ -9272,7 +9272,7 @@ pokemon:
     weight: 15.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Air Slash' }
+      - { level: 0, move: 'Air Slash' }
       - { level: 1, move: 'Air Slash' }
       - { level: 1, move: Tailwind }
       - { level: 1, move: Peck }
@@ -9374,7 +9374,7 @@ pokemon:
     weight: 5.8
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Petal Blizzard' }
+      - { level: 0, move: 'Petal Blizzard' }
       - { level: 1, move: 'Petal Blizzard' }
       - { level: 1, move: 'Quiver Dance' }
       - { level: 1, move: 'Mega Drain' }
@@ -9464,7 +9464,7 @@ pokemon:
     weight: 38.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: Slam }
+      - { level: 0, move: Slam }
       - { level: 1, move: Slam }
       - { level: 1, move: 'Stone Edge' }
       - { level: 1, move: 'Hammer Arm' }
@@ -9778,7 +9778,7 @@ pokemon:
     weight: 26.5
     color: Purple
     level_up_moves:
-      - { level: '-', move: Confusion }
+      - { level: 0, move: Confusion }
       - { level: 1, move: Confusion }
       - { level: 1, move: Covet }
       - { level: 1, move: Bite }
@@ -9886,7 +9886,7 @@ pokemon:
     weight: 27.0
     color: Black
     level_up_moves:
-      - { level: '-', move: Snarl }
+      - { level: 0, move: Snarl }
       - { level: 1, move: Snarl }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -9992,10 +9992,10 @@ pokemon:
     weight: 28.5
     color: Blue
     level_up_moves:
-      - { level: '-', move: Counter }
-      - { level: '-', move: 'Mirror Coat' }
-      - { level: '-', move: Safeguard }
-      - { level: '-', move: 'Destiny Bond' }
+      - { level: 0, move: Counter }
+      - { level: 0, move: 'Mirror Coat' }
+      - { level: 0, move: Safeguard }
+      - { level: 0, move: 'Destiny Bond' }
       - { level: 1, move: Splash }
       - { level: 1, move: Charm }
       - { level: 1, move: Encore }
@@ -10584,7 +10584,7 @@ pokemon:
     weight: 55.8
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Ice Fang' }
+      - { level: 0, move: 'Ice Fang' }
       - { level: 1, move: 'Ice Fang' }
       - { level: 1, move: 'Ancient Power' }
       - { level: 1, move: Tackle }
@@ -10995,7 +10995,7 @@ pokemon:
     weight: 28.5
     color: Red
     level_up_moves:
-      - { level: '-', move: Octazooka }
+      - { level: 0, move: Octazooka }
       - { level: 1, move: Octazooka }
       - { level: 1, move: 'Gunk Shot' }
       - { level: 1, move: 'Rock Blast' }
@@ -11380,7 +11380,7 @@ pokemon:
     weight: 48.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Triple Kick' }
+      - { level: 0, move: 'Triple Kick' }
       - { level: 1, move: 'Triple Kick' }
       - { level: 1, move: Feint }
       - { level: 1, move: 'Rapid Spin' }
@@ -11581,7 +11581,7 @@ pokemon:
     weight: 152.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Iron Defense' }
+      - { level: 0, move: 'Iron Defense' }
       - { level: 1, move: 'Iron Defense' }
       - { level: 1, move: Tackle }
       - { level: 1, move: Leer }
@@ -12133,7 +12133,7 @@ pokemon:
     weight: 32.5
     color: White
     level_up_moves:
-      - { level: '-', move: Slash }
+      - { level: 0, move: Slash }
       - { level: 1, move: Slash }
       - { level: 1, move: Switcheroo }
       - { level: 1, move: 'Pin Missile' }
@@ -12236,7 +12236,7 @@ pokemon:
     weight: 32.5
     color: White
     level_up_moves:
-      - { level: '-', move: 'Night Slash' }
+      - { level: 0, move: 'Night Slash' }
       - { level: 1, move: 'Night Slash' }
       - { level: 1, move: Switcheroo }
       - { level: 1, move: 'Pin Missile' }
@@ -12756,7 +12756,7 @@ pokemon:
     weight: 28.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Razor Leaf' }
+      - { level: 0, move: 'Razor Leaf' }
       - { level: 1, move: 'Razor Leaf' }
       - { level: 1, move: 'Air Cutter' }
       - { level: 1, move: Torment }
@@ -12867,7 +12867,7 @@ pokemon:
     weight: 59.6
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Leaf Tornado' }
+      - { level: 0, move: 'Leaf Tornado' }
       - { level: 1, move: 'Leaf Tornado' }
       - { level: 1, move: 'Razor Leaf' }
       - { level: 1, move: 'Air Cutter' }
@@ -13405,7 +13405,7 @@ pokemon:
     weight: 48.4
     color: White
     level_up_moves:
-      - { level: '-', move: 'Dazzling Gleam' }
+      - { level: 0, move: 'Dazzling Gleam' }
       - { level: 1, move: 'Dazzling Gleam' }
       - { level: 1, move: Moonblast }
       - { level: 1, move: 'Misty Terrain' }
@@ -13602,9 +13602,9 @@ pokemon:
     weight: 12.0
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Double Team' }
-      - { level: '-', move: Screech }
-      - { level: '-', move: 'Fury Cutter' }
+      - { level: 0, move: 'Double Team' }
+      - { level: 0, move: Screech }
+      - { level: 0, move: 'Fury Cutter' }
       - { level: 1, move: 'Double Team' }
       - { level: 1, move: Screech }
       - { level: 1, move: 'Fury Cutter' }
@@ -14203,7 +14203,7 @@ pokemon:
     weight: 2.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Poison Sting' }
+      - { level: 0, move: 'Poison Sting' }
       - { level: 1, move: 'Poison Sting' }
       - { level: 1, move: Absorb }
       - { level: 1, move: Growth }
@@ -14691,7 +14691,7 @@ pokemon:
     weight: 15.3
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Dragon Breath' }
+      - { level: 0, move: 'Dragon Breath' }
       - { level: 1, move: 'Dragon Breath' }
       - { level: 1, move: 'Laser Focus' }
       - { level: 1, move: Bulldoze }
@@ -14794,7 +14794,7 @@ pokemon:
     weight: 82.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Dragon Claw' }
+      - { level: 0, move: 'Dragon Claw' }
       - { level: 1, move: 'Dragon Claw' }
       - { level: 1, move: 'Dragon Breath' }
       - { level: 1, move: 'Dragon Dance' }
@@ -15231,7 +15231,7 @@ pokemon:
     weight: 23.6
     color: Blue
     level_up_moves:
-      - { level: '-', move: Thrash }
+      - { level: 0, move: Thrash }
       - { level: 1, move: Thrash }
       - { level: 1, move: Belch }
       - { level: 1, move: 'Zen Headbutt' }
@@ -15429,7 +15429,7 @@ pokemon:
     weight: 32.8
     color: Red
     level_up_moves:
-      - { level: '-', move: Swift }
+      - { level: 0, move: Swift }
       - { level: 1, move: Swift }
       - { level: 1, move: 'Water Gun' }
       - { level: 1, move: Harden }
@@ -15647,7 +15647,7 @@ pokemon:
     weight: 108.0
     color: Black
     level_up_moves:
-      - { level: '-', move: 'Hyper Beam' }
+      - { level: 0, move: 'Hyper Beam' }
       - { level: 1, move: 'Hyper Beam' }
       - { level: 1, move: Teleport }
       - { level: 1, move: Harden }
@@ -15839,7 +15839,7 @@ pokemon:
     weight: 162.0
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'Water Pulse' }
+      - { level: 0, move: 'Water Pulse' }
       - { level: 1, move: 'Water Pulse' }
       - { level: 1, move: Flail }
       - { level: 1, move: Splash }
@@ -16035,7 +16035,7 @@ pokemon:
     weight: 30.6
     color: Black
     level_up_moves:
-      - { level: '-', move: 'Shadow Punch' }
+      - { level: 0, move: 'Shadow Punch' }
       - { level: 1, move: 'Shadow Punch' }
       - { level: 1, move: 'Fire Punch' }
       - { level: 1, move: 'Ice Punch' }
@@ -16284,7 +16284,7 @@ pokemon:
     weight: 256.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Freeze-Dry }
+      - { level: 0, move: Freeze-Dry }
       - { level: 1, move: Freeze-Dry }
       - { level: 1, move: 'Sheer Cold' }
       - { level: 1, move: 'Powder Snow' }
@@ -16732,7 +16732,7 @@ pokemon:
     weight: 38.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: Slash }
+      - { level: 0, move: Slash }
       - { level: 1, move: Slash }
       - { level: 1, move: 'Struggle Bug' }
       - { level: 1, move: 'Bug Bite' }
@@ -16919,7 +16919,7 @@ pokemon:
     weight: 9.3
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Sunny Day' }
+      - { level: 0, move: 'Sunny Day' }
       - { level: 1, move: 'Sunny Day' }
       - { level: 1, move: 'Flower Shield' }
       - { level: 1, move: 'Morning Sun' }
@@ -17006,7 +17006,7 @@ pokemon:
     weight: 9.3
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'Sunny Day' }
+      - { level: 0, move: 'Sunny Day' }
       - { level: 1, move: 'Sunny Day' }
       - { level: 1, move: 'Flower Shield' }
       - { level: 1, move: 'Morning Sun' }
@@ -17547,7 +17547,7 @@ pokemon:
     weight: 15.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Phantom Force' }
+      - { level: 0, move: 'Phantom Force' }
       - { level: 1, move: 'Phantom Force' }
       - { level: 1, move: 'Strength Sap' }
       - { level: 1, move: Minimize }
@@ -17746,7 +17746,7 @@ pokemon:
     weight: 38.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: Flamethrower }
+      - { level: 0, move: Flamethrower }
       - { level: 1, move: Flamethrower }
       - { level: 1, move: 'Poison Gas' }
       - { level: 1, move: Scratch }
@@ -17947,7 +17947,7 @@ pokemon:
     weight: 187.0
     color: Green
     level_up_moves:
-      - { level: '-', move: Block }
+      - { level: 0, move: Block }
       - { level: 1, move: Block }
       - { level: 1, move: 'Sunny Day' }
       - { level: 1, move: 'Weather Ball' }
@@ -18476,7 +18476,7 @@ pokemon:
     weight: 54.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Aura Sphere' }
+      - { level: 0, move: 'Aura Sphere' }
       - { level: 1, move: 'Aura Sphere' }
       - { level: 1, move: 'Life Dew' }
       - { level: 1, move: 'Work Up' }
@@ -19430,7 +19430,7 @@ pokemon:
     weight: 135.5
     color: White
     level_up_moves:
-      - { level: '-', move: 'Ice Punch' }
+      - { level: 0, move: 'Ice Punch' }
       - { level: 1, move: 'Ice Punch' }
       - { level: 1, move: 'Aurora Veil' }
       - { level: 1, move: 'Powder Snow' }
@@ -19781,7 +19781,7 @@ pokemon:
     weight: 38.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Air Slash' }
+      - { level: 0, move: 'Air Slash' }
       - { level: 1, move: 'Air Slash' }
       - { level: 1, move: 'Fairy Wind' }
       - { level: 1, move: 'Sky Attack' }
@@ -19902,7 +19902,7 @@ pokemon:
     weight: 25.5
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Razor Leaf' }
+      - { level: 0, move: 'Razor Leaf' }
       - { level: 1, move: 'Razor Leaf' }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -20007,7 +20007,7 @@ pokemon:
     weight: 25.9
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Icy Wind' }
+      - { level: 0, move: 'Icy Wind' }
       - { level: 1, move: 'Icy Wind' }
       - { level: 1, move: Covet }
       - { level: 1, move: Swift }
@@ -20107,7 +20107,7 @@ pokemon:
     weight: 291.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Double Hit' }
+      - { level: 0, move: 'Double Hit' }
       - { level: 1, move: 'Double Hit' }
       - { level: 1, move: 'Ice Fang' }
       - { level: 1, move: 'Ancient Power' }
@@ -20207,7 +20207,7 @@ pokemon:
     weight: 52.0
     color: White
     level_up_moves:
-      - { level: '-', move: Slash }
+      - { level: 0, move: Slash }
       - { level: 1, move: Slash }
       - { level: 1, move: 'Night Slash' }
       - { level: 1, move: Growl }
@@ -20470,7 +20470,7 @@ pokemon:
     weight: 26.6
     color: White
     level_up_moves:
-      - { level: '-', move: Hex }
+      - { level: 0, move: Hex }
       - { level: 1, move: Hex }
       - { level: 1, move: 'Destiny Bond' }
       - { level: 1, move: Protect }
@@ -21795,7 +21795,7 @@ pokemon:
     weight: 102.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Power Gem' }
+      - { level: 0, move: 'Power Gem' }
       - { level: 1, move: 'Power Gem' }
       - { level: 1, move: 'Sand Attack' }
       - { level: 1, move: Tackle }
@@ -22266,7 +22266,7 @@ pokemon:
     weight: 40.4
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Horn Drill' }
+      - { level: 0, move: 'Horn Drill' }
       - { level: 1, move: 'Horn Drill' }
       - { level: 1, move: Mud-Slap }
       - { level: 1, move: 'Rapid Spin' }
@@ -22824,7 +22824,7 @@ pokemon:
     weight: 62.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Drain Punch' }
+      - { level: 0, move: 'Drain Punch' }
       - { level: 1, move: 'Drain Punch' }
       - { level: 1, move: 'Gastro Acid' }
       - { level: 1, move: 'Echoed Voice' }
@@ -23715,7 +23715,7 @@ pokemon:
     weight: 92.9
     color: Red
     level_up_moves:
-      - { level: '-', move: 'Hammer Arm' }
+      - { level: 0, move: 'Hammer Arm' }
       - { level: 1, move: 'Hammer Arm' }
       - { level: 1, move: Ember }
       - { level: 1, move: Tackle }
@@ -23828,7 +23828,7 @@ pokemon:
     weight: 92.9
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Hammer Arm' }
+      - { level: 0, move: 'Hammer Arm' }
       - { level: 1, move: 'Hammer Arm' }
       - { level: 1, move: Ember }
       - { level: 1, move: Tackle }
@@ -23940,7 +23940,7 @@ pokemon:
     weight: 120.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Icicle Crash' }
+      - { level: 0, move: 'Icicle Crash' }
       - { level: 1, move: 'Icicle Crash' }
       - { level: 1, move: 'Powder Snow' }
       - { level: 1, move: Tackle }
@@ -24053,7 +24053,7 @@ pokemon:
     weight: 120.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Icicle Crash' }
+      - { level: 0, move: 'Icicle Crash' }
       - { level: 1, move: 'Icicle Crash' }
       - { level: 1, move: 'Powder Snow' }
       - { level: 1, move: Tackle }
@@ -24971,7 +24971,7 @@ pokemon:
     weight: 76.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Shadow Claw' }
+      - { level: 0, move: 'Shadow Claw' }
       - { level: 1, move: 'Shadow Claw' }
       - { level: 1, move: 'Scary Face' }
       - { level: 1, move: Astonish }
@@ -25946,7 +25946,7 @@ pokemon:
     weight: 20.1
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Hammer Arm' }
+      - { level: 0, move: 'Hammer Arm' }
       - { level: 1, move: 'Hammer Arm' }
       - { level: 1, move: Protect }
       - { level: 1, move: Confusion }
@@ -26772,7 +26772,7 @@ pokemon:
     weight: 14.3
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Sticky Web' }
+      - { level: 0, move: 'Sticky Web' }
       - { level: 1, move: 'Sticky Web' }
       - { level: 1, move: Absorb }
       - { level: 1, move: 'Fury Cutter' }
@@ -26958,7 +26958,7 @@ pokemon:
     weight: 110.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Power Whip' }
+      - { level: 0, move: 'Power Whip' }
       - { level: 1, move: 'Power Whip' }
       - { level: 1, move: Tackle }
       - { level: 1, move: Harden }
@@ -28143,7 +28143,7 @@ pokemon:
     weight: 260.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Icicle Crash' }
+      - { level: 0, move: 'Icicle Crash' }
       - { level: 1, move: 'Icicle Crash' }
       - { level: 1, move: 'Aqua Jet' }
       - { level: 1, move: Charm }
@@ -29145,7 +29145,7 @@ pokemon:
     weight: 41.0
     color: Red
     level_up_moves:
-      - { level: '-', move: Superpower }
+      - { level: 0, move: Superpower }
       - { level: 1, move: Superpower }
       - { level: 1, move: 'Sky Attack' }
       - { level: 1, move: Peck }
@@ -29326,7 +29326,7 @@ pokemon:
     weight: 39.5
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Bone Rush' }
+      - { level: 0, move: 'Bone Rush' }
       - { level: 1, move: 'Bone Rush' }
       - { level: 1, move: 'Sky Attack' }
       - { level: 1, move: Toxic }
@@ -31243,7 +31243,7 @@ pokemon:
     weight: 136.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Night Slash' }
+      - { level: 0, move: 'Night Slash' }
       - { level: 1, move: 'Night Slash' }
       - { level: 1, move: 'Bullet Punch' }
       - { level: 1, move: Tackle }
@@ -31833,7 +31833,7 @@ pokemon:
     weight: 53.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'King’s Shield' }
+      - { level: 0, move: 'King’s Shield' }
       - { level: 1, move: 'King’s Shield' }
       - { level: 1, move: 'Head Smash' }
       - { level: 1, move: 'Aerial Ace' }
@@ -31922,7 +31922,7 @@ pokemon:
     weight: 53.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'King’s Shield' }
+      - { level: 0, move: 'King’s Shield' }
       - { level: 1, move: 'King’s Shield' }
       - { level: 1, move: 'Head Smash' }
       - { level: 1, move: 'Aerial Ace' }
@@ -32974,7 +32974,7 @@ pokemon:
     weight: 23.5
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'Disarming Voice' }
+      - { level: 0, move: 'Disarming Voice' }
       - { level: 1, move: 'Disarming Voice' }
       - { level: 1, move: Covet }
       - { level: 1, move: Bite }
@@ -33282,7 +33282,7 @@ pokemon:
     weight: 17.5
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Acid Spray' }
+      - { level: 0, move: 'Acid Spray' }
       - { level: 1, move: 'Acid Spray' }
       - { level: 1, move: Absorb }
       - { level: 1, move: Tackle }
@@ -33359,7 +33359,7 @@ pokemon:
     weight: 150.5
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Aqua Tail' }
+      - { level: 0, move: 'Aqua Tail' }
       - { level: 1, move: 'Aqua Tail' }
       - { level: 1, move: 'Acid Spray' }
       - { level: 1, move: 'Poison Tail' }
@@ -33562,7 +33562,7 @@ pokemon:
     weight: 71.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Shadow Claw' }
+      - { level: 0, move: 'Shadow Claw' }
       - { level: 1, move: 'Shadow Claw' }
       - { level: 1, move: Astonish }
       - { level: 1, move: Tackle }
@@ -34557,7 +34557,7 @@ pokemon:
     weight: 505.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Body Slam' }
+      - { level: 0, move: 'Body Slam' }
       - { level: 1, move: 'Body Slam' }
       - { level: 1, move: 'Wide Guard' }
       - { level: 1, move: 'Rapid Spin' }
@@ -34751,7 +34751,7 @@ pokemon:
     weight: 85.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Dragon Pulse' }
+      - { level: 0, move: 'Dragon Pulse' }
       - { level: 1, move: 'Dragon Pulse' }
       - { level: 1, move: Moonlight }
       - { level: 1, move: Absorb }
@@ -35020,7 +35020,7 @@ pokemon:
     weight: 36.6
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Spirit Shackle' }
+      - { level: 0, move: 'Spirit Shackle' }
       - { level: 1, move: 'Spirit Shackle' }
       - { level: 1, move: 'Phantom Force' }
       - { level: 1, move: 'Leaf Storm' }
@@ -35298,7 +35298,7 @@ pokemon:
     weight: 83.0
     color: Red
     level_up_moves:
-      - { level: '-', move: 'Darkest Lariat' }
+      - { level: 0, move: 'Darkest Lariat' }
       - { level: 1, move: 'Darkest Lariat' }
       - { level: 1, move: 'Cross Chop' }
       - { level: 1, move: 'Throat Chop' }
@@ -35599,7 +35599,7 @@ pokemon:
     weight: 44.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Sparkling Aria' }
+      - { level: 0, move: 'Sparkling Aria' }
       - { level: 1, move: 'Sparkling Aria' }
       - { level: 1, move: Pound }
       - { level: 1, move: Growl }
@@ -35779,7 +35779,7 @@ pokemon:
     weight: 10.5
     color: Green
     level_up_moves:
-      - { level: '-', move: Charge }
+      - { level: 0, move: Charge }
       - { level: 1, move: Charge }
       - { level: 1, move: 'Vise Grip' }
       - { level: 1, move: Mud-Slap }
@@ -35860,7 +35860,7 @@ pokemon:
     weight: 45.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: Thunderbolt }
+      - { level: 0, move: Thunderbolt }
       - { level: 1, move: Thunderbolt }
       - { level: 1, move: Charge }
       - { level: 1, move: X-Scissor }
@@ -36055,7 +36055,7 @@ pokemon:
     weight: 0.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: 'Pollen Puff' }
+      - { level: 0, move: 'Pollen Puff' }
       - { level: 1, move: 'Pollen Puff' }
       - { level: 1, move: Covet }
       - { level: 1, move: Absorb }
@@ -36416,7 +36416,7 @@ pokemon:
     weight: 14.5
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Baneful Bunker' }
+      - { level: 0, move: 'Baneful Bunker' }
       - { level: 1, move: 'Baneful Bunker' }
       - { level: 1, move: 'Poison Sting' }
       - { level: 1, move: Peck }
@@ -37137,7 +37137,7 @@ pokemon:
     weight: 22.2
     color: Black
     level_up_moves:
-      - { level: '-', move: 'Fire Lash' }
+      - { level: 0, move: 'Fire Lash' }
       - { level: 1, move: 'Fire Lash' }
       - { level: 1, move: 'Knock Off' }
       - { level: 1, move: Encore }
@@ -37332,7 +37332,7 @@ pokemon:
     weight: 135.0
     color: Pink
     level_up_moves:
-      - { level: '-', move: Bind }
+      - { level: 0, move: Bind }
       - { level: 1, move: Bind }
       - { level: 1, move: Tackle }
       - { level: 1, move: Leer }
@@ -37602,7 +37602,7 @@ pokemon:
     weight: 21.4
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Trop Kick' }
+      - { level: 0, move: 'Trop Kick' }
       - { level: 1, move: 'Trop Kick' }
       - { level: 1, move: 'Power Whip' }
       - { level: 1, move: Flail }
@@ -37988,7 +37988,7 @@ pokemon:
     weight: 108.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'First Impression' }
+      - { level: 0, move: 'First Impression' }
       - { level: 1, move: 'First Impression' }
       - { level: 1, move: 'Struggle Bug' }
       - { level: 1, move: 'Sand Attack' }
@@ -38255,7 +38255,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38367,7 +38367,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38479,7 +38479,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38591,7 +38591,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38703,7 +38703,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38815,7 +38815,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -38927,7 +38927,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39039,7 +39039,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39151,7 +39151,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39263,7 +39263,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39375,7 +39375,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39487,7 +39487,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39599,7 +39599,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39711,7 +39711,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39823,7 +39823,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -39935,7 +39935,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -40047,7 +40047,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -40159,7 +40159,7 @@ pokemon:
     weight: 100.5
     color: Gray
     level_up_moves:
-      - { level: '-', move: Multi-Attack }
+      - { level: 0, move: Multi-Attack }
       - { level: 1, move: Multi-Attack }
       - { level: 1, move: Explosion }
       - { level: 1, move: 'Thunder Fang' }
@@ -41113,7 +41113,7 @@ pokemon:
     weight: 78.2
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Clanging Scales' }
+      - { level: 0, move: 'Clanging Scales' }
       - { level: 1, move: 'Clanging Scales' }
       - { level: 1, move: 'Belly Drum' }
       - { level: 1, move: Autotomize }
@@ -41273,7 +41273,7 @@ pokemon:
     weight: 999.9
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Cosmic Power' }
+      - { level: 0, move: 'Cosmic Power' }
       - { level: 1, move: 'Cosmic Power' }
       - { level: 1, move: Teleport }
     egg_moves: []
@@ -41319,7 +41319,7 @@ pokemon:
     weight: 230.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Sunsteel Strike' }
+      - { level: 0, move: 'Sunsteel Strike' }
       - { level: 1, move: 'Sunsteel Strike' }
       - { level: 1, move: 'Cosmic Power' }
       - { level: 1, move: Teleport }
@@ -41433,7 +41433,7 @@ pokemon:
     weight: 120.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Moongeist Beam' }
+      - { level: 0, move: 'Moongeist Beam' }
       - { level: 1, move: 'Moongeist Beam' }
       - { level: 1, move: 'Cosmic Power' }
       - { level: 1, move: Teleport }
@@ -42151,7 +42151,7 @@ pokemon:
     weight: 800.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Thunder Punch' }
+      - { level: 0, move: 'Thunder Punch' }
       - { level: 1, move: 'Thunder Punch' }
       - { level: 1, move: 'Thunder Shock' }
       - { level: 1, move: Harden }
@@ -42333,7 +42333,7 @@ pokemon:
     weight: 14.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Double Hit' }
+      - { level: 0, move: 'Double Hit' }
       - { level: 1, move: 'Double Hit' }
       - { level: 1, move: Scratch }
       - { level: 1, move: Growl }
@@ -42419,7 +42419,7 @@ pokemon:
     weight: 90.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Drum Beating' }
+      - { level: 0, move: 'Drum Beating' }
       - { level: 1, move: 'Drum Beating' }
       - { level: 1, move: 'Double Hit' }
       - { level: 1, move: 'Grassy Terrain' }
@@ -42708,7 +42708,7 @@ pokemon:
     weight: 33.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Pyro Ball' }
+      - { level: 0, move: 'Pyro Ball' }
       - { level: 1, move: 'Pyro Ball' }
       - { level: 1, move: Feint }
       - { level: 1, move: Tackle }
@@ -42972,7 +42972,7 @@ pokemon:
     weight: 45.2
     color: Blue
     level_up_moves:
-      - { level: '-', move: 'Snipe Shot' }
+      - { level: 0, move: 'Snipe Shot' }
       - { level: 1, move: 'Snipe Shot' }
       - { level: 1, move: Acrobatics }
       - { level: 1, move: Pound }
@@ -43159,7 +43159,7 @@ pokemon:
     weight: 6.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: Covet }
+      - { level: 0, move: Covet }
       - { level: 1, move: Covet }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Tail Whip' }
@@ -43415,7 +43415,7 @@ pokemon:
     weight: 75.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Steel Wing' }
+      - { level: 0, move: 'Steel Wing' }
       - { level: 1, move: 'Steel Wing' }
       - { level: 1, move: 'Iron Defense' }
       - { level: 1, move: 'Metal Sound' }
@@ -43559,9 +43559,9 @@ pokemon:
     weight: 19.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: Reflect }
-      - { level: '-', move: 'Light Screen' }
-      - { level: '-', move: Confusion }
+      - { level: 0, move: Reflect }
+      - { level: 0, move: 'Light Screen' }
+      - { level: 0, move: Confusion }
       - { level: 1, move: Reflect }
       - { level: 1, move: 'Light Screen' }
       - { level: 1, move: Confusion }
@@ -43826,7 +43826,7 @@ pokemon:
     weight: 19.9
     color: Brown
     level_up_moves:
-      - { level: '-', move: Thief }
+      - { level: 0, move: Thief }
       - { level: 1, move: Thief }
       - { level: 1, move: 'Quick Attack' }
       - { level: 1, move: 'Tail Whip' }
@@ -43997,7 +43997,7 @@ pokemon:
     weight: 2.5
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Cotton Spore' }
+      - { level: 0, move: 'Cotton Spore' }
       - { level: 1, move: 'Cotton Spore' }
       - { level: 1, move: Leafage }
       - { level: 1, move: Sing }
@@ -44302,7 +44302,7 @@ pokemon:
     weight: 115.5
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Rock Tomb' }
+      - { level: 0, move: 'Rock Tomb' }
       - { level: 1, move: 'Rock Tomb' }
       - { level: 1, move: 'Razor Shell' }
       - { level: 1, move: Crunch }
@@ -44656,7 +44656,7 @@ pokemon:
     weight: 78.0
     color: Black
     level_up_moves:
-      - { level: '-', move: 'Flame Charge' }
+      - { level: 0, move: 'Flame Charge' }
       - { level: 1, move: 'Flame Charge' }
       - { level: 1, move: Tackle }
       - { level: 1, move: Smokescreen }
@@ -44745,7 +44745,7 @@ pokemon:
     weight: 310.5
     color: Black
     level_up_moves:
-      - { level: '-', move: 'Tar Shot' }
+      - { level: 0, move: 'Tar Shot' }
       - { level: 1, move: 'Tar Shot' }
       - { level: 1, move: 'Flame Charge' }
       - { level: 1, move: Tackle }
@@ -44895,7 +44895,7 @@ pokemon:
     weight: 1.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Wing Attack' }
+      - { level: 0, move: 'Wing Attack' }
       - { level: 1, move: 'Wing Attack' }
       - { level: 1, move: Recycle }
       - { level: 1, move: Withdraw }
@@ -44983,7 +44983,7 @@ pokemon:
     weight: 13.0
     color: Green
     level_up_moves:
-      - { level: '-', move: Headbutt }
+      - { level: 0, move: Headbutt }
       - { level: 1, move: Headbutt }
       - { level: 1, move: Recycle }
       - { level: 1, move: Withdraw }
@@ -45747,7 +45747,7 @@ pokemon:
     weight: 40.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: Spark }
+      - { level: 0, move: Spark }
       - { level: 1, move: Spark }
       - { level: 1, move: 'Eerie Impulse' }
       - { level: 1, move: Belch }
@@ -45854,7 +45854,7 @@ pokemon:
     weight: 40.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: Spark }
+      - { level: 0, move: Spark }
       - { level: 1, move: Spark }
       - { level: 1, move: 'Eerie Impulse' }
       - { level: 1, move: Belch }
@@ -46212,7 +46212,7 @@ pokemon:
     weight: 39.0
     color: Blue
     level_up_moves:
-      - { level: '-', move: Octolock }
+      - { level: 0, move: Octolock }
       - { level: 1, move: Octolock }
       - { level: 1, move: Octazooka }
       - { level: 1, move: 'Rock Smash' }
@@ -46464,7 +46464,7 @@ pokemon:
     weight: 0.4
     color: Purple
     level_up_moves:
-      - { level: '-', move: Teatime }
+      - { level: 0, move: Teatime }
       - { level: 1, move: Teatime }
       - { level: 1, move: 'Strength Sap' }
       - { level: 1, move: Astonish }
@@ -46551,7 +46551,7 @@ pokemon:
     weight: 0.4
     color: Purple
     level_up_moves:
-      - { level: '-', move: Teatime }
+      - { level: 0, move: Teatime }
       - { level: 1, move: Teatime }
       - { level: 1, move: 'Strength Sap' }
       - { level: 1, move: Astonish }
@@ -46720,7 +46720,7 @@ pokemon:
     weight: 4.8
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'Brutal Swing' }
+      - { level: 0, move: 'Brutal Swing' }
       - { level: 1, move: 'Brutal Swing' }
       - { level: 1, move: Confusion }
       - { level: 1, move: 'Play Nice' }
@@ -46803,7 +46803,7 @@ pokemon:
     weight: 5.1
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'Psycho Cut' }
+      - { level: 0, move: 'Psycho Cut' }
       - { level: 1, move: 'Psycho Cut' }
       - { level: 1, move: 'Brutal Swing' }
       - { level: 1, move: Confusion }
@@ -46986,7 +46986,7 @@ pokemon:
     weight: 12.5
     color: Pink
     level_up_moves:
-      - { level: '-', move: 'False Surrender' }
+      - { level: 0, move: 'False Surrender' }
       - { level: 1, move: 'False Surrender' }
       - { level: 1, move: 'Fake Out' }
       - { level: 1, move: Confide }
@@ -47077,7 +47077,7 @@ pokemon:
     weight: 61.0
     color: Purple
     level_up_moves:
-      - { level: '-', move: 'Spirit Break' }
+      - { level: 0, move: 'Spirit Break' }
       - { level: 1, move: 'Spirit Break' }
       - { level: 1, move: 'False Surrender' }
       - { level: 1, move: 'Bulk Up' }
@@ -47190,7 +47190,7 @@ pokemon:
     weight: 46.0
     color: Gray
     level_up_moves:
-      - { level: '-', move: Obstruct }
+      - { level: 0, move: Obstruct }
       - { level: 1, move: Obstruct }
       - { level: 1, move: 'Cross Chop' }
       - { level: 1, move: Submission }
@@ -47315,7 +47315,7 @@ pokemon:
     weight: 28.0
     color: Brown
     level_up_moves:
-      - { level: '-', move: 'Iron Head' }
+      - { level: 0, move: 'Iron Head' }
       - { level: 1, move: 'Iron Head' }
       - { level: 1, move: 'Metal Burst' }
       - { level: 1, move: 'Iron Defense' }
@@ -47531,7 +47531,7 @@ pokemon:
     weight: 117.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Iron Defense' }
+      - { level: 0, move: 'Iron Defense' }
       - { level: 1, move: 'Iron Defense' }
       - { level: 1, move: 'First Impression' }
       - { level: 1, move: Peck }
@@ -47759,7 +47759,7 @@ pokemon:
     weight: 66.6
     color: Gray
     level_up_moves:
-      - { level: '-', move: 'Shadow Claw' }
+      - { level: 0, move: 'Shadow Claw' }
       - { level: 1, move: 'Shadow Claw' }
       - { level: 1, move: 'Scary Face' }
       - { level: 1, move: Astonish }
@@ -47952,7 +47952,7 @@ pokemon:
     weight: 0.5
     color: White
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48043,7 +48043,7 @@ pokemon:
     weight: 0.5
     color: Pink
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48134,7 +48134,7 @@ pokemon:
     weight: 0.5
     color: Green
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48225,7 +48225,7 @@ pokemon:
     weight: 0.5
     color: Blue
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48316,7 +48316,7 @@ pokemon:
     weight: 0.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48407,7 +48407,7 @@ pokemon:
     weight: 0.5
     color: White
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48498,7 +48498,7 @@ pokemon:
     weight: 0.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48589,7 +48589,7 @@ pokemon:
     weight: 0.5
     color: Brown
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -48680,7 +48680,7 @@ pokemon:
     weight: 0.5
     color: Yellow
     level_up_moves:
-      - { level: '-', move: Decorate }
+      - { level: 0, move: Decorate }
       - { level: 1, move: Decorate }
       - { level: 1, move: Tackle }
       - { level: 1, move: 'Aromatic Mist' }
@@ -49010,7 +49010,7 @@ pokemon:
     weight: 42.0
     color: White
     level_up_moves:
-      - { level: '-', move: 'Icy Wind' }
+      - { level: 0, move: 'Icy Wind' }
       - { level: 1, move: 'Icy Wind' }
       - { level: 1, move: 'Powder Snow' }
       - { level: 1, move: 'Struggle Bug' }
@@ -49870,7 +49870,7 @@ pokemon:
     weight: 650.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Heavy Slam' }
+      - { level: 0, move: 'Heavy Slam' }
       - { level: 1, move: 'Heavy Slam' }
       - { level: 1, move: Tackle }
       - { level: 1, move: Growl }
@@ -50505,7 +50505,7 @@ pokemon:
     weight: 11.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Dragon Pulse' }
+      - { level: 0, move: 'Dragon Pulse' }
       - { level: 1, move: 'Dragon Pulse' }
       - { level: 1, move: Astonish }
       - { level: 1, move: Infestation }
@@ -50604,7 +50604,7 @@ pokemon:
     weight: 50.0
     color: Green
     level_up_moves:
-      - { level: '-', move: 'Dragon Darts' }
+      - { level: 0, move: 'Dragon Darts' }
       - { level: 1, move: 'Dragon Darts' }
       - { level: 1, move: 'Dragon Breath' }
       - { level: 1, move: 'Sucker Punch' }
