@@ -2,7 +2,8 @@
     "type": "project",
     "require": {
         "league/csv": "^9.0",
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^6.0",
+        "symfony/yaml": "^4.3"
     },
     "license": "MIT"
 }
