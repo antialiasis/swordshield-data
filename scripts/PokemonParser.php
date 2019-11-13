@@ -1,88 +1,12 @@
 <?php
 
-use Symfony\Component\Yaml\Yaml;
+namespace route1rodent\SwordShieldData;
 
-require_once __DIR__ . '/bootstrap.php';
-
-return new class()
+class PokemonParser extends Parser
 {
-    /**
-     * @var string
-     */
-    private $sourceFile;
-    /**
-     * @var resource
-     */
-    private $sourceFileHandle;
-    /**
-     * @var string
-     */
-    private $destinationFile;
-
     public function __construct()
     {
-        $this->sourceFile = SwordShieldExporter::SRC_DIR . '/sword_shield_pokemon_stats.txt';
-        $this->destinationFile = SwordShieldExporter::DEST_DIR . '/pokemon.yaml';
-    }
-
-    public function __destruct()
-    {
-        if ($this->sourceFileHandle) {
-            fclose($this->sourceFileHandle);
-        }
-    }
-
-    public function __invoke(): \Generator
-    {
-        $poke = $this->readBlock();
-
-        if ($poke === null) {
-            yield from [];
-            return;
-        }
-
-        while ($poke !== null) {
-            yield $this->parseBlock($poke);
-            $poke = $this->readBlock();
-        }
-    }
-
-    public function export()
-    {
-        file_put_contents($this->destinationFile, '---' . PHP_EOL . PHP_EOL . 'pokemon:' . PHP_EOL);
-
-        foreach ($this->__invoke() as $item) {
-            $yaml = '  - ' . ltrim(implode(PHP_EOL, array_map(function ($line) {
-                        return '    ' . $line;
-                    }, explode(PHP_EOL, Yaml::dump($item, 2, 2, Yaml::DUMP_EMPTY_ARRAY_AS_SEQUENCE)))) . PHP_EOL);
-            $yaml = preg_replace('#!!float (\d+)#', '\1.0', $yaml);
-
-            file_put_contents($this->destinationFile, $yaml, FILE_APPEND);
-        }
-    }
-
-    protected function readLine(): ?string
-    {
-        if ($this->sourceFileHandle === false) {
-            return null;
-        }
-
-        if (!$this->sourceFileHandle) {
-            $this->sourceFileHandle = fopen($this->sourceFile, "r");
-
-            if (!$this->sourceFileHandle) {
-                throw new \RuntimeException("Cannot open file {$this->sourceFile}");
-            }
-        }
-
-        $line = fgets($this->sourceFileHandle);
-        if ($line === false) {
-            fclose($this->sourceFileHandle);
-            $this->sourceFileHandle = false;
-            return null;
-        }
-
-        return trim($line);
+        parent::__construct('sword_shield_pokemon_stats.txt', 'pokemon.json');
     }
 
     protected function parseBlock(?array $block): ?array
@@ -119,7 +43,7 @@ return new class()
 
         // Species
         if (!preg_match_all('/^(?<id>[0-9]+) - (?<name>.*) \(Stage: (?<stage>[0-9])\)/i', $header, $data)) {
-            throw new RuntimeException("Cannot parse pokemon header: '{$header}'");
+            throw new ParseException("Cannot parse pokemon header: '{$header}'");
         }
         $pokemon['id'] = intval($data['id'][0]);
         $pokemon['name'] = trim($data['name'][0]);
@@ -137,8 +61,8 @@ return new class()
                         {
                             $level = ltrim($data['level'][0], '0');
                             $pokemon['level_up_moves'][] = [
-                                'level' => is_numeric($level) ? (int)$level : ($level ? $level : 0),
-                                'move' => $data['move'][0]
+                                is_numeric($level) ? (int)$level : ($level ? $level : 0),
+                                $data['move'][0]
                             ];
                         }
                         break;
@@ -149,18 +73,12 @@ return new class()
                         break;
                     case 'tms':
                         {
-                            $pokemon['tms'][] = [
-                                'id' =>$data['id'][0],
-                                'move' => $data['move'][0]
-                            ];
+                            $pokemon['tms'][] = intval($data['id'][0]);
                         }
                         break;
                     case 'trs':
                         {
-                            $pokemon['trs'][] = [
-                                'id' => $data['id'][0],
-                                'move' => $data['move'][0]
-                            ];
+                            $pokemon['trs'][] = intval($data['id'][0]);
                         }
                         break;
                 }
@@ -220,10 +138,7 @@ return new class()
                     break;
                 case preg_match_all('/^Item [0-9] \((?<ratio>[0-9]+)%\): (?<item>.+)/i', $line, $data) > 0:
                     {
-                        $pokemon['items'][] = [
-                            'name' => $data['item'][0],
-                            'frequency' => floatval($data['ratio'][0])
-                        ];
+                        $pokemon['items'][] = [$data['item'][0], floatval($data['ratio'][0])];
                     }
                     break;
                 case preg_match_all('/^EXP Group: (?<value>.+)/i', $line, $data) > 0:
@@ -298,40 +213,4 @@ return new class()
 
         return $pokemon;
     }
-
-    protected function readBlock(): ?array
-    {
-        $delimiter = '======';
-        $pokemon = [];
-
-        $line = $this->readLine();
-
-        if ($line === null) {
-            return null;
-        }
-
-        if ($line != $delimiter) {
-            throw new RuntimeException("Unexpected line: '{$line}'");
-        }
-
-        $delimiterCount = 1;
-
-        while ($line !== null) {
-            if (!in_array($line, [$delimiter, PHP_EOL, null, ''], true)) {
-                $pokemon[] = $line;
-            }
-            $prevPos = ftell($this->sourceFileHandle);
-            $line = $this->readLine();
-            if ($line === $delimiter) {
-                if ($delimiterCount == 2) {
-                    $line = null;
-                    fseek($this->sourceFileHandle, $prevPos);
-                    break;
-                }
-                $delimiterCount++;
-            }
-        }
-
-        return $pokemon;
-    }
-};
+}

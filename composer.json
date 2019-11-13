@@ -1,9 +1,14 @@
 {
     "type": "project",
     "require": {
+        "ext-json": "*",
         "league/csv": "^9.0",
-        "illuminate/support": "^6.0",
-        "symfony/yaml": "^4.3"
+        "illuminate/support": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "route1rodent\\SwordShieldData\\": "scripts/"
+        }
     },
     "license": "MIT"
 }
