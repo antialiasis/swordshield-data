@@ -12,13 +12,13 @@ All parsed data can be found under the `data/json` folder.
 ## The optimized `json` format
 
 Since reading a whole JSON file in memory might be expensive, JSON files are
-formatted in a way that each line represents an full JSON object in a list.
+formatted in a way that each line represents a full JSON object in a list.
 
 This way, you can read big files line by file, decoding each line from JSON to
 an object.
 
-The only thing your parser needs to do is to skip the first and last lines
-(which are `[\n` and `]\n` respectively) and trim the trailing comma `,` of each line.
+The only thing your JSON parser needs to do is to skip the first and last lines
+(which are `[\n` and `{}]\n` respectively) and trim the trailing comma `,` of each line.
 
 
 ## Credits
