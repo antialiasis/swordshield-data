@@ -8,3 +8,7 @@ All parsed data can be found under the `data/parsed` folder.
 ## Commands
 
 Parse and export all RAW data: `./scripts/export.php`
+
+## Credits
+
+- Kurt / [@kwsch](https://github.com/kwsch) / [@Kaphotics](https://twitter.com/Kaphotics) for the data dumps 
