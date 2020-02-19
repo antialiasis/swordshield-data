@@ -42,4 +42,7 @@ The only thing your JSON parser needs to do is to skip the first and last lines
 
 ## Credits
 
-- Kurt / [@kwsch](https://github.com/kwsch) / [@Kaphotics](https://twitter.com/Kaphotics) for the data dumps 
+Thanks to [@kwsch](https://github.com/kwsch) aka. [@Kaphotics](https://twitter.com/Kaphotics) and SciresM for the data dumps.
+
+Data sources: https://github.com/route1rodent/pokedata/wiki/Data-Sources
+
